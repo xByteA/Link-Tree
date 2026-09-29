@@ -417,7 +417,7 @@
           </span>
           <span class="text-status-emerald flex items-center gap-1">
             <span class="w-1.5 h-1.5 rounded-full bg-status-emerald"></span>
-            7_LINKS_ACTIVE
+            8_LINKS_ACTIVE
           </span>
         </div>
         <!-- 01: Resume -->
@@ -455,13 +455,41 @@
             </a>
           </div>
         </div>
-        <!-- 02: LinkedIn -->
+        <!-- 02: Email -->
+        <div
+          class="group relative flex items-center justify-between gap-2 bg-[#080d16] border border-status-active/50 hover:border-status-active p-3 rounded-sm transition-all duration-150 box-glow-cyan">
+          <a class="flex items-center gap-3 flex-1 min-w-0" href="mailto:abdelrahmanseif99@gmail.com">
+            <span
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[02]</span>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-1.5">
+                <span class="font-title-module text-sm font-bold text-status-active">EMAIL // TRANSMISSION</span>
+                <span class="font-telemetry-micro text-[10px] text-status-emerald">// PGP_ACTIVE</span>
+              </div>
+              <div class="font-telemetry-micro text-[11px] text-on-surface-variant mt-0.5 line-clamp-1">
+                abdelrahmanseif99@gmail.com · SLA response &lt;24 hours for architecture.</div>
+            </div>
+          </a>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <button type="button" title="Copy email address" onclick="copyPayload(this, 'abdelrahmanseif99@gmail.com')"
+              class="px-1.5 py-1 text-[10px] font-mono border border-status-active/30 text-status-active hover:border-status-active hover:bg-status-active/20 rounded transition-all flex items-center gap-1 cursor-pointer">
+              <span class="material-symbols-outlined text-[12px]">content_copy</span>
+              <span class="copy-label hidden sm:inline-block">COPY</span>
+            </button>
+            <a href="mailto:abdelrahmanseif99@gmail.com"
+              class="flex items-center gap-1.5 px-2 py-0.5 bg-status-active/20 text-status-active border border-status-active/40 rounded font-semibold text-[10px] font-telemetry-micro hover:bg-status-active/30 transition-colors">
+              <span class="">SEND_KEY</span>
+              <span class="material-symbols-outlined text-status-active text-base">send</span>
+            </a>
+          </div>
+        </div>
+        <!-- 03: LinkedIn -->
         <div
           class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
           <a class="flex items-center gap-3 flex-1 min-w-0"
             href="https://www.linkedin.com/in/abdelrahman-seif-09090b2ab/" rel="noopener" target="_blank">
             <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[02]</span>
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[03]</span>
             <div class="min-w-0 flex-1">
               <div class="flex items-center gap-1.5">
                 <span
@@ -488,13 +516,45 @@
             </a>
           </div>
         </div>
-        <!-- 03: GitHub -->
+        <!-- 04: WhatsApp -->
+        <div
+          class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
+          <a class="flex items-center gap-3 flex-1 min-w-0" href="https://wa.me/201002105765" rel="noopener"
+            target="_blank">
+            <span
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[04]</span>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-1.5">
+                <span
+                  class="font-title-module text-sm font-bold text-text-bright group-hover:text-status-active transition-colors">WHATSAPP</span>
+                <span class="font-telemetry-micro text-[10px] text-text-muted">// DIRECT_DISPATCH</span>
+              </div>
+              <div class="font-telemetry-micro text-[11px] text-text-muted mt-0.5 line-clamp-1">Direct messaging channel · +201002105765.</div>
+            </div>
+          </a>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <span
+              class="font-telemetry-micro text-[10px] px-1.5 py-0.5 bg-surface-raised border border-border-hairline text-status-emerald">ONLINE</span>
+            <button type="button" title="Copy link to clipboard"
+              onclick="copyPayload(this, 'https://wa.me/201002105765')"
+              class="px-1.5 py-1 text-[10px] font-mono border border-status-active/20 text-text-muted hover:text-status-active hover:border-status-active/60 hover:bg-status-active/10 rounded transition-all flex items-center gap-1 cursor-pointer">
+              <span class="material-symbols-outlined text-[12px]">content_copy</span>
+              <span class="copy-label hidden sm:inline-block">COPY</span>
+            </button>
+            <a href="https://wa.me/201002105765" rel="noopener" target="_blank"
+              class="text-text-muted hover:text-status-active p-0.5 inline-flex items-center transition-all">
+              <span
+                class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-all">open_in_new</span>
+            </a>
+          </div>
+        </div>
+        <!-- 05: GitHub -->
         <div
           class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
           <a class="flex items-center gap-3 flex-1 min-w-0" href="https://github.com/xByteA" rel="noopener"
             target="_blank">
             <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[03]</span>
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[05]</span>
             <div class="min-w-0 flex-1">
               <div class="flex items-center gap-1.5">
                 <span
@@ -522,13 +582,13 @@
             </a>
           </div>
         </div>
-        <!-- 04: Portfolio -->
+        <!-- 06: Portfolio -->
         <div
           class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
           <a class="flex items-center gap-3 flex-1 min-w-0" href="https://abdelrahman-seif.vercel.app/" rel="noopener"
             target="_blank">
             <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[04]</span>
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[06]</span>
             <div class="min-w-0 flex-1">
               <div class="flex items-center gap-1.5">
                 <span
@@ -556,47 +616,13 @@
             </a>
           </div>
         </div>
-        <!-- 05: LeetCode -->
-        <div
-          class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
-          <a class="flex items-center gap-3 flex-1 min-w-0" href="https://leetcode.com/u/0xSeif/" rel="noopener"
-            target="_blank">
-            <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[05]</span>
-            <div class="min-w-0 flex-1">
-              <div class="flex items-center gap-1.5">
-                <span
-                  class="font-title-module text-sm font-bold text-text-bright group-hover:text-status-active transition-colors">LEETCODE</span>
-                <span class="font-telemetry-micro text-[10px] text-text-muted">// ALGORITHMIC_INDEX</span>
-              </div>
-              <div class="font-telemetry-micro text-[11px] text-text-muted mt-0.5 line-clamp-1">Knight Rank (Top 1.5%),
-                Graph dynamic programming.</div>
-            </div>
-          </a>
-          <div class="flex items-center gap-1.5 shrink-0">
-            <span
-              class="font-telemetry-micro text-[10px] px-1.5 py-0.5 bg-surface-raised border border-border-hairline text-status-active">RATING:
-              2180</span>
-            <button type="button" title="Copy link to clipboard"
-              onclick="copyPayload(this, 'https://leetcode.com/u/0xSeif/')"
-              class="px-1.5 py-1 text-[10px] font-mono border border-status-active/20 text-text-muted hover:text-status-active hover:border-status-active/60 hover:bg-status-active/10 rounded transition-all flex items-center gap-1 cursor-pointer">
-              <span class="material-symbols-outlined text-[12px]">content_copy</span>
-              <span class="copy-label hidden sm:inline-block">COPY</span>
-            </button>
-            <a href="https://leetcode.com/u/0xSeif/" rel="noopener" target="_blank"
-              class="text-text-muted hover:text-status-active p-0.5 inline-flex items-center transition-all">
-              <span
-                class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-all">open_in_new</span>
-            </a>
-          </div>
-        </div>
-        <!-- 06: Instagram -->
+        <!-- 07: Instagram -->
         <div
           class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
           <a class="flex items-center gap-3 flex-1 min-w-0" href="https://www.instagram.com/0xaseif/" rel="noopener"
             target="_blank">
             <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[06]</span>
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[07]</span>
             <div class="min-w-0 flex-1">
               <div class="flex items-center gap-1.5">
                 <span
@@ -623,31 +649,37 @@
             </a>
           </div>
         </div>
-        <!-- 07: Email (Direct Encrypted Transmission) -->
+        <!-- 08: LeetCode -->
         <div
-          class="group relative flex items-center justify-between gap-2 bg-[#080d16] border border-status-active/50 hover:border-status-active p-3 rounded-sm transition-all duration-150 box-glow-cyan">
-          <a class="flex items-center gap-3 flex-1 min-w-0" href="mailto:abdelrahmanseif99@gmail.com">
+          class="group relative flex items-center justify-between gap-2 bg-surface-deep border border-border-hairline hover:border-status-active p-3 rounded-sm transition-all duration-150 hover:shadow-[0_0_15px_-3px_rgba(0,229,255,0.3)]">
+          <a class="flex items-center gap-3 flex-1 min-w-0" href="https://leetcode.com/u/0xSeif/" rel="noopener"
+            target="_blank">
             <span
-              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[07]</span>
+              class="font-telemetry-tag text-xs text-status-active group-hover:scale-110 transition-transform font-bold">[08]</span>
             <div class="min-w-0 flex-1">
               <div class="flex items-center gap-1.5">
-                <span class="font-title-module text-sm font-bold text-status-active">EMAIL // TRANSMISSION</span>
-                <span class="font-telemetry-micro text-[10px] text-status-emerald">// PGP_ACTIVE</span>
+                <span
+                  class="font-title-module text-sm font-bold text-text-bright group-hover:text-status-active transition-colors">LEETCODE</span>
+                <span class="font-telemetry-micro text-[10px] text-text-muted">// ALGORITHMIC_INDEX</span>
               </div>
-              <div class="font-telemetry-micro text-[11px] text-on-surface-variant mt-0.5 line-clamp-1">
-                abdelrahmanseif99@gmail.com · SLA response &lt;24 hours for architecture.</div>
+              <div class="font-telemetry-micro text-[11px] text-text-muted mt-0.5 line-clamp-1">Knight Rank (Top 1.5%),
+                Graph dynamic programming.</div>
             </div>
           </a>
           <div class="flex items-center gap-1.5 shrink-0">
-            <button type="button" title="Copy email address" onclick="copyPayload(this, 'abdelrahmanseif99@gmail.com')"
-              class="px-1.5 py-1 text-[10px] font-mono border border-status-active/30 text-status-active hover:border-status-active hover:bg-status-active/20 rounded transition-all flex items-center gap-1 cursor-pointer">
+            <span
+              class="font-telemetry-micro text-[10px] px-1.5 py-0.5 bg-surface-raised border border-border-hairline text-status-active">RATING:
+              2180</span>
+            <button type="button" title="Copy link to clipboard"
+              onclick="copyPayload(this, 'https://leetcode.com/u/0xSeif/')"
+              class="px-1.5 py-1 text-[10px] font-mono border border-status-active/20 text-text-muted hover:text-status-active hover:border-status-active/60 hover:bg-status-active/10 rounded transition-all flex items-center gap-1 cursor-pointer">
               <span class="material-symbols-outlined text-[12px]">content_copy</span>
               <span class="copy-label hidden sm:inline-block">COPY</span>
             </button>
-            <a href="mailto:abdelrahmanseif99@gmail.com"
-              class="flex items-center gap-1.5 px-2 py-0.5 bg-status-active/20 text-status-active border border-status-active/40 rounded font-semibold text-[10px] font-telemetry-micro hover:bg-status-active/30 transition-colors">
-              <span class="">SEND_KEY</span>
-              <span class="material-symbols-outlined text-status-active text-base">send</span>
+            <a href="https://leetcode.com/u/0xSeif/" rel="noopener" target="_blank"
+              class="text-text-muted hover:text-status-active p-0.5 inline-flex items-center transition-all">
+              <span
+                class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-all">open_in_new</span>
             </a>
           </div>
         </div>
